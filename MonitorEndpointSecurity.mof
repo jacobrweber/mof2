@@ -1,0 +1,36 @@
+/*
+@TargetNode='MonitorEndpointSecurity'
+@GeneratedBy=oldhead
+@GenerationDate=12/29/2021 09:07:57
+@GenerationHost=YUNGOLDHEADPC
+*/
+
+instance of MSFT_ServiceResource as $MSFT_ServiceResource1ref
+{
+Name = "CSFalconService";
+ ResourceID = "[Service]CrowdStrikeSensor";
+ ModuleVersion = "2.12.0.0";
+ Ensure = "Present";
+ ModuleName = "PSDscResources";
+ State = "Running";
+ SourceInfo = "C:\\Users\\oldhead\\Desktop\\dsc\\MonitorEndpointSecurity.ps1::7::9::Service";
+ ConfigurationName = "MonitorEndpointSecurity";
+};
+instance of OMI_ConfigurationDocument
+
+                    {
+ Version="2.0.0";
+
+                        MinimumCompatibleVersion = "1.0.0";
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+
+                        Author="oldhead";
+
+                        GenerationDate="12/29/2021 09:07:57";
+
+                        GenerationHost="YUNGOLDHEADPC";
+
+                        Name="MonitorEndpointSecurity";
+
+                    };
